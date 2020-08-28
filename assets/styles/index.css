@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgba(177, 223, 243, 1); */
+    height: 100vh;
+}
+
+.banner{
+    background-color: rgba(132, 188, 213, 1);
+}
+
+
+.tile-container{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+
+}
+
+
+.row{
+    padding: 10px;
+}
+
+
+.column{
+    padding: 10px;
+}
+
+
+
+.tile-container{
+    padding: 10px;
+    margin: 30px;
+    height: 30vh;
+    width: 50%;
+}
+
+#logo{
+    font-size: 30px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+
+#container{
+    /* margin: 50px; */
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+
