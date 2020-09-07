@@ -1,32 +1,65 @@
 *{
     box-sizing: border-box;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
+
 
 body{
     /* background-color: rgba(177, 223, 243, 1); */
     height: 100vh;
 }
 
+
+
 .banner{
     background-color: rgba(132, 188, 213, 1);
 }
 
 
-.tile-container{
-    width: 300px;
-    height: 100px;
-    background-color: blue;
 
+.tile{
+    margin: 0px;
+    padding: 0px;
 }
+
+
+
+.article{
+    width: 200px;
+    height: 300px;
+    background-color: rgba(132, 188, 213, 1);
+    padding: 15px;
+    border-radius: 10px;
+}
+
 
 
 .row{
-    padding: 10px;
+    width: 600px;
 }
+
 
 
 .column{
     padding: 10px;
+}
+
+
+
+.icon-image{
+    margin-top: 120px;
+    margin-bottom: 30px;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+.icon-title{
+    font-size: 24px;
+    margin: 5px;
+
 }
 
 
@@ -38,11 +71,14 @@ body{
     width: 50%;
 }
 
+
+
 #logo{
     font-size: 30px;
     margin: 10px;
     margin-left: 30px;
 }
+
 
 
 #container{
@@ -55,3 +91,33 @@ body{
 }
 
 
+
+#overview{
+    width: 600px;
+    height: 80vh;
+}
+
+
+
+#carpets_container:hover{
+    color: white;
+}
+
+
+
+#houses_container:hover{
+    color:white;
+}
+
+
+
+#maintenance_container:hover{
+    color:white;
+}
+
+
+
+
+#painting_container:hover{
+    color:white;
+}
