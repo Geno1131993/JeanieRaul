@@ -1,13 +1,14 @@
 *{
     box-sizing: border-box;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 18px;
 }
 
 
 
 body{
     /* background-color: rgba(177, 223, 243, 1); */
-    height: 100vh;
+    height: 100%;
 }
 
 
@@ -25,7 +26,7 @@ body{
 
 
 
-.article{
+.tile-container{
     width: 200px;
     height: 300px;
     background-color: rgba(132, 188, 213, 1);
@@ -47,13 +48,19 @@ body{
 
 
 
-.icon-image{
+.button-image{
     margin-top: 120px;
     margin-bottom: 30px;
     height: 150px;
     width: 150px;
 }
 
+
+.icon-image{
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+}
 
 
 .icon-title{
@@ -71,6 +78,66 @@ body{
     width: 50%;
 }
 
+
+
+.card{
+    background-color: rgb(202, 236, 250);
+    height: 220px;
+    width: 500px;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+
+.card:hover{
+    color: white;
+}
+
+
+
+.card-image{
+    border-radius: 5px;
+}
+
+
+
+.card_name{
+    font-size: 26px;
+    margin-bottom: 5px;
+    background-color: rgba(132, 188, 213, 1);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+.card_text{
+    margin: 10px;
+}
+
+
+
+#position{
+    font-size: 20px;
+}
+
+
+
+#questions_container:hover{
+    color: white;
+}
+
+
+.banner:hover{
+    color: white;
+}
+
+
+#overview_text:hover{
+    color: white;
+}
 
 
 #logo{
@@ -93,11 +160,30 @@ body{
 
 
 #overview{
-    width: 600px;
-    height: 80vh;
+    width: 700px;
+    background-color: rgba(132, 188, 213, 1);
+    padding: 20px;
+    border-radius: 10px;
 }
 
 
+
+#questions_container{
+    /* height: 200px; */
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(132, 188, 213, 1);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+#questions-title{
+    margin-bottom: 20px;
+}
 
 #carpets_container:hover{
     color: white;

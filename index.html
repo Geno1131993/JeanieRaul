@@ -1,97 +1,106 @@
-            <!DOCTYPE html>
-                <html lang = "us-en">
-                <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-                <script src = "https://code.jquery.com/jquery-3.5.0.js"></script>
-                <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-                <link rel = "stylesheet" href = "assets/styles/index.css">
-                <head>
-                    <title> Welcome! </title>
-                </head>
+                <!DOCTYPE html>
+                    <html lang = "us-en">
+                    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                    <script src = "https://code.jquery.com/jquery-3.5.0.js"></script>
+                    <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+                    <link rel = "stylesheet" href = "assets/styles/index.css">
+                    <head>
+                        <title> Welcome! </title>
+                    </head>
 
 
-                <body>
-                    <nav id = "header" class = "level banner">
+                    <body>
+                        <nav id = "header" class = "level banner">
 
-                        <!-- To be replaced with logo image later, after I've created one -->
-                        <div class = "level-left">
-                            <p id = "logo"> Jeanie and Raul's Maintenance </p>
-                        </div>
-                        <div class = "level-right">
+                            <!-- To be replaced with logo image later, after I've created one -->
+                            <div class = "level-left">
+                                <p id = "logo"> Jeanie and Raul's Maintenance and Carpet Cleaning</p>
+                            </div>
+                            <div class = "level-right">
 
-                        </div>
-                    </nav>
+                            </div>
+                        </nav>
 
 
-                    <div id = "container">
-                        <div class = "tile is-ancestor">
-                            <div class = "tile">
+                        <div id = "container">
+                            <div class = "tile is-ancestor">
+                                <div class = "tile">
 
-                                <div class = "tile is-horizontal is-parent">
-                                    <div class = "tile is-vertical column">
-                                        <div class = "tile is-horizontal row" id = "row1">
-                                            <div class = "article tile-container" id = "carpets_container">
-                                                <nav class = "level" >
-                                                    <p class = "icon-title level-item has-text-centered"> Carpet Cleaning </p>
+                                    <div class = "tile is-horizontal is-parent">
+                                        <div class = "tile is-vertical column">
+                                            <div class = "tile is-horizontal row" id = "row1">
+                                                <div class = "article tile-container" id = "carpets_container">
+                                                    <nav class = "level" >
+                                                        <p class = "icon-title level-item has-text-centered"> Carpet Cleaning </p>
+                                                    </nav>
+                                                    <nav class = "level">
+                                                        <div class = "icon level-item has-text-centered" id = "carpets">
+
+                                                        </div>
+                                                    </nav>
+                                                </div>
+                                                <div class = "article tile-container" id = "houses_container">
+                                                    <nav class = "level">
+                                                    <p class = "icon-title level-item has-text-centered"> Cleaning Services </p>
                                                 </nav>
                                                 <nav class = "level">
-                                                    <div class = "icon level-item has-text-centered" id = "carpets">
+                                                    <div class = "icon level-item has-text-centered" id = "houses">
+
+                                                    </div>
+                                                </nav>
+                                        </div>
+                                        </div>
+                                        <div class = "tile is-horizontal row" id = "row2">
+                                            <div class = "article tile-container" id = "maintenance_container">
+                                                <nav class = "level">
+                                                    <p class = "icon-title level-item has-text-centered"> Maintenance </p>
+                                                </nav>
+                                                <nav class = "level">
+                                                    <div class = "icon level-item has-text-centered" id = "maintenance">
 
                                                     </div>
                                                 </nav>
                                             </div>
-                                            <div class = "article tile-container" id = "houses_container">
+                                            <div class = "article tile-container" id = "painting_container">
                                                 <nav class = "level">
-                                                <p class = "icon-title level-item has-text-centered"> Cleaning Services </p>
-                                            </nav>
-                                            <nav class = "level">
-                                                <div class = "icon level-item has-text-centered" id = "houses">
+                                                    <p class = "icon-title level-item has-text-centered"> Painting </p>
+                                                </nav>
+                                                <nav class = "level">
+                                                    <div class = "icon level-item has-text-centered" id = "painting">
 
-                                                </div>
-                                            </nav>
-                                    </div>
-                                    </div>
-                                    <div class = "tile is-horizontal row" id = "row2">
-                                        <div class = "article tile-container" id = "maintenance_container">
-                                            <nav class = "level">
-                                                <p class = "icon-title level-item has-text-centered"> Maintenance </p>
-                                            </nav>
-                                            <nav class = "level">
-                                                <div class = "icon level-item has-text-centered" id = "maintenance">
-
-                                                </div>
-                                            </nav>
+                                                    </div>
+                                                </nav>
+                                            </div>
                                         </div>
-                                        <div class = "article tile-container" id = "painting_container">
-                                            <nav class = "level">
-                                                <p class = "icon-title level-item has-text-centered"> Painting </p>
-                                            </nav>
-                                            <nav class = "level">
-                                                <div class = "icon level-item has-text-centered" id = "painting">
 
-                                                </div>
-                                            </nav>
-                                        </div>
+                                    </div>
                                     </div>
 
-                                   
+                                    <div class = "article is-12" id = "overview">
+                                        <p id = "overview_text"></p>
+                                    
+                                    </div>
                                 </div>
 
-                                <div class = "article is-12" id = "overview">
 
-                                </div>
+                                
+
                             </div>
+                        <div>
 
 
-                            
+                        <div id = "questions_container">
+                            <p class = "icon-title" id = "questions-title"> Questions? </p>
+                            <div class = "tile is-horizontal" id = "questions">
+                                
 
+                            </div>
                         </div>
-                    <div>
-
 
                         <script src = "./assets/script/index.js"></script>
-                
+                    
 
-                </body>
+                    </body>
 
 
-            </html>
+                </html>
