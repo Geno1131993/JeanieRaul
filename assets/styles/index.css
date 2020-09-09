@@ -6,6 +6,11 @@
 
 
 
+html{
+    min-width: 940px;
+}
+
+
 body{
     /* background-color: rgba(177, 223, 243, 1); */
     /* height: 100%; */
